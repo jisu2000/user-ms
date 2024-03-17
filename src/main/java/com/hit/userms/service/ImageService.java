@@ -1,0 +1,1 @@
+package com.hit.userms.service;import org.springframework.web.multipart.MultipartFile;import java.io.IOException;public interface ImageService {    public String upLoadImage(String token, MultipartFile multipartFile) throws IOException;    public byte[] getImage(String id) throws IOException;}

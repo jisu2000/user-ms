@@ -1,0 +1,1 @@
+package com.hit.userms.security;import com.hit.userms.enums.Role;import lombok.AllArgsConstructor;import lombok.Builder;import lombok.Data;import lombok.NoArgsConstructor;@NoArgsConstructor@AllArgsConstructor@Data@Builderpublic class AuthResponse {    private Role role;    private String token;    private String refreshToken;}

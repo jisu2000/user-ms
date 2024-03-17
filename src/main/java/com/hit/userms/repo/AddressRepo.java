@@ -1,0 +1,1 @@
+package com.hit.userms.repo;import com.hit.userms.model.AddressEO;import com.hit.userms.model.UserEO;import org.springframework.data.jpa.repository.JpaRepository;import java.util.List;public interface AddressRepo extends JpaRepository<AddressEO,Integer> {    List<AddressEO> findByUserEO(UserEO userEO);}

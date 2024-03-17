@@ -1,0 +1,1 @@
+package com.hit.userms.model;import jakarta.persistence.*;import lombok.*;@Entity@NoArgsConstructor@AllArgsConstructor@Datapublic class Image {    @Id    private String id;    private String name;    private String contentType;    @Lob    private byte[] data;}

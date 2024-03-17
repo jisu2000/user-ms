@@ -1,0 +1,1 @@
+package com.hit.userms.repo;import com.hit.userms.model.Image;import org.springframework.data.jpa.repository.JpaRepository;public interface ImageRepo extends JpaRepository<Image,String> {}

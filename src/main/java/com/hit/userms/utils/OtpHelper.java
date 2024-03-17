@@ -1,0 +1,1 @@
+package com.hit.userms.utils;import java.util.Random;public class OtpHelper {    public static String generateOTP(int length) {        Random random = new Random();        int otpValue = random.nextInt((int) Math.pow(10, length));        return String.format("%06d", otpValue);    }}

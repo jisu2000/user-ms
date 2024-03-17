@@ -1,0 +1,1 @@
+package com.hit.userms.repo;import com.hit.userms.model.UserEO;import org.springframework.data.jpa.repository.JpaRepository;public interface UserRepo extends JpaRepository<UserEO,Integer> {    UserEO findByEmail(String email);    UserEO findByMobileNo(String mobileNo);}

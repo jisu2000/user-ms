@@ -1,0 +1,1 @@
+package com.hit.userms.exception;public class RefreshTokenExpiredException extends RuntimeException{    public RefreshTokenExpiredException(String msg){        super(msg);    }    public RefreshTokenExpiredException(){        super("Refresh Token expired");    }}

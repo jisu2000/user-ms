@@ -1,0 +1,1 @@
+package com.hit.userms.request;import lombok.AllArgsConstructor;import lombok.Data;import lombok.NoArgsConstructor;@NoArgsConstructor@AllArgsConstructor@Datapublic class EmailRequest {    private String subject;    private String body;    private String recipentEmail;}

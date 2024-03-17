@@ -1,0 +1,1 @@
+package com.hit.userms.security;public class UrlConfig {    public static final String[] PUBLIC_URL=            new String[]{                    "/api/v1/auth/**"    };    public static final String[] PRIVATE_URL=            new String[]{                    "/api/v1/secure/**",                    "/api/v1/address/**"    };}

@@ -1,0 +1,1 @@
+package com.hit.userms.enums;public enum Gender {    MALE,FEMALE}
